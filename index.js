@@ -1,3 +1,4 @@
+(function(module){
 module.exports = readingTime
 function readingTime(callback,data,wpm){
 	if(typeof wpm !== "number") wpm = 250;
@@ -14,3 +15,4 @@ function readingTime(callback,data,wpm){
 		return callback(new Error("Provided data isn't one of the following: string, array or number"));
 	}
 }
+})(typeof module === 'undefined'? this['readingTime']={}: module);

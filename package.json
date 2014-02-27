@@ -1,5 +1,5 @@
 {
-	"name":"randdata",
+	"name":"readingtime",
 	"version":"0.0.1",
 	"author":"snemvalts",
 	"description":"get the time needed to read a piece of text.",
