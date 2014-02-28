@@ -1,6 +1,6 @@
 {
 	"name":"readingtime",
-	"version":"0.0.1",
+	"version":"0.0.2",
 	"author":"snemvalts",
 	"description":"get the time needed to read a piece of text.",
 	"main":"index.js",

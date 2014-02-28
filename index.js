@@ -1,7 +1,7 @@
 (function(module){
 module.exports = readingTime
 function readingTime(callback,data,wpm){
-	if(typeof wpm !== "number") wpm = 250;
+	if(typeof wpm !== "number") wpm = 175;
 	if (typeof data === "string"){
 		return callback(data.split(" ").length / wpm)
 	}
